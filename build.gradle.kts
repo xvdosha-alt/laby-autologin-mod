@@ -22,7 +22,7 @@ labyMod {
 
     addonInfo {
         namespace = "autologin"
-        displayName = "Auto Login"
+        displayName = "Laby AutoLogin"
         author = "llm"
         description = "Auth password autologin driven by Python"
         minecraftVersion = "1.20.1"

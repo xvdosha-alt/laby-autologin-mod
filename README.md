@@ -18,7 +18,7 @@ LabyMod 4 addon for Minecraft **1.20.1** that auto-sends auth passwords on prote
 ## Build
 
 ```bash
-./build.sh
+./gradlew createReleaseJar
 ```
 
 Windows:
@@ -30,13 +30,7 @@ build.bat
 Release JAR:
 
 ```
-dist/autologin.jar
-```
-
-Gradle directly:
-
-```bash
-./gradlew createReleaseJar
+build/libs/autologin-release.jar
 ```
 
 ## Project layout
@@ -96,7 +90,7 @@ Merges nick/password entries into the local store.
 
 ## Install
 
-1. Build `dist/autologin.jar`
+1. Build `build/libs/autologin-release.jar`
 2. Place the addon into your LabyMod addons folder
 3. Start Minecraft 1.20.1 with LabyMod
 4. Configure accounts through the API or `accounts.json`
