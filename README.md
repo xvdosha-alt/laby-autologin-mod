@@ -1,4 +1,9 @@
+EN | [RU](docs/README_RU.md)
+
 # Auto Login
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+
 
 LabyMod 4 addon for Minecraft **1.20.1** that auto-sends auth passwords on protected servers and exposes a small localhost API for external tools (for example Python scripts).
 
@@ -36,9 +41,9 @@ build/libs/autologin-release.jar
 ## Project layout
 
 ```
-api/           — version-independent bridge interface
-core/          — addon logic, password store, TCP server
-game-runner/   — Minecraft 1.20.1 bridge implementation
+api/           - version-independent bridge interface
+core/          - addon logic, password store, TCP server
+game-runner/   - Minecraft 1.20.1 bridge implementation
 ```
 
 ## Local API
